@@ -32,7 +32,7 @@ def algorithm_second(n):
         i += 1
 """
 
-#algo3 =
+algo3 = """
 def algorithm_third(n):
     c = list(True for i in range(n))
     c[1] = False
@@ -49,6 +49,7 @@ def algorithm_third(n):
                 a += 1
         i += 1
 
+"""
 
 algo4 = """
 def algorithm_fourth(n):
@@ -66,8 +67,8 @@ def algorithm_fourth(n):
             j += 1
         i += 1
 """
-"""
-algo5 = 
+
+algo5 = """
 def algorithm_fifth(n):
     c = list(True for i in range(n))
     c[1] = False
@@ -80,7 +81,7 @@ def algorithm_fifth(n):
                 c[i] = False
             j += 1
         i += 1
-
+"""
 
 going_through = [10 for i in range(5)]
 for i in range(1, 5):
@@ -116,6 +117,3 @@ plt.xlabel("Range")
 plt.ylabel("Seconds")
 plt.legend()
 plt.show()
-"""
-
-algorithm_third(100)
